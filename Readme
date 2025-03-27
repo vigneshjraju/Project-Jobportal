@@ -1,0 +1,113 @@
+Jobsphere - Job Portal
+
+📌 Project Overview
+
+Jobsphere is a full-stack job portal that connects job seekers and employers, streamlining the recruitment process. The platform features role-based access for Jobseekers, Employers, and Admins, ensuring smooth operations, secure user authentication, and an efficient hiring experience.
+
+🚀 Features
+
+🏆 Jobseekers
+
+Register and create a profile with education and experience details.
+
+Browse and apply for job postings.
+
+Receive real-time employer response updates (Shortlisted, Pending, Rejected).
+
+🏢 Employers
+
+Register and create a company profile.
+
+Post job openings with detailed descriptions and requirements.
+
+View and manage job applications.
+
+Shortlist, reject, or accept applications.
+
+🔧 Admin
+
+Monitor platform activity and manage employer accounts.
+
+Remove inactive or fraudulent employers.
+
+Maintain system security and oversee user authentication.
+
+🛠️ Technologies Used
+
+🎨 Frontend
+
+React.js - UI Framework
+
+Tailwind CSS - Styling
+
+⚙️ Backend
+
+Node.js - Server Runtime
+
+Express.js - Web Server Framework
+
+🗄️ Database
+
+MongoDB - NoSQL Database
+
+📦 Containerization
+
+Docker - For deployment and containerized application management
+
+🔍 Other Tools & Libraries
+
+Multer - For file uploads
+
+JWT - Secure authentication using JSON Web Token
+
+🏗️ Getting Started
+
+Clone the Repository
+
+git clone <repository-url>
+cd jobsphere
+
+Install Dependencies
+
+npm install
+
+Run the Application
+
+Development Mode
+
+npm run dev
+
+Docker Setup
+
+Ensure Docker is installed, then build and run the project:
+
+docker compose up --build
+
+Accessing the Application
+
+Once the container starts, the application will be available at:
+
+http://localhost:5000
+
+📹 Demo Video
+
+Watch the full Jobsphere Demo here: Jobsphere Demo
+
+🔮 Future Enhancements
+
+✅ Implement AI-based job recommendations.
+
+✅ Improve UI/UX with better themes and layouts.
+
+✅ Add resume parsing for job matching.
+
+👨‍💻 Contributing
+
+We welcome contributions! Feel free to fork the repository, create a new branch, and submit a pull request with improvements.
+
+🛠️ Issues & Support
+
+If you encounter any issues, raise a ticket in the Issues section or contact the project maintainers.
+
+Happy Coding! 🚀
+
