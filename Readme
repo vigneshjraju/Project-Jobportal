@@ -64,7 +64,7 @@ JWT - Secure authentication using JSON Web Token
 
 Clone the Repository
 
-git clone <repository-url>
+git clone git@github.com:vigneshjraju/Project-Jobportal.git
 cd jobsphere
 
 Install Dependencies
