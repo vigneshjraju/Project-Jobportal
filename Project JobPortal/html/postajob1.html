@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job 1</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+</head>
+<body class="bg-[url('images/body.png')] bg-cover  dark:bg-gray-900">
+
+    <div class="flex justify-between">
+
+        
+        <div>
+            <a href="home.html"><img src="images/logo.png" class="ml-8" alt="logo"></a>
+        </div>
+
+        
+        <nav class="flex gap-28   mt-16 sm">
+            <div>
+                <a href="employershome.html" class="text-black hover:text-green-700 text-lg font-bold">Home</a>
+            </div>
+
+            <div>
+                <a href="employersprofile.html" class="text-black hover:text-green-700 text-lg font-bold">Employers Dashboard</a>
+            </div>
+
+            <div>
+                <a href="applied.html" class="text-black hover:text-green-700 text-lg font-bold">Candidates</a>
+            </div>
+
+            <div>
+                <a href="contactus.html" class="text-black hover:text-green-700 text-lg font-bold">Contact</a>
+            </div>
+        </nav>
+        
+
+        <div>
+                <input type="button" value="Logout" class="bg-red-700 text-white w-28 h-12 font-bold text-xl mr-28 mt-12 hover:bg-green-700">
+        </div>
+
+
+
+
+    </div>
+
+    <div class="ml-[550px] my-20 bg-zinc-300	border-2 border-black  w-[800px]  py-12 rounded-xl shadow-sm shadow-black ">
+        
+            <form action="postajob2.html">
+
+                <div class="border-b-2 w-[700px] ml-[50px]">
+                    <p class="text-black font-extrabold text-2xl font-serif  text-center">
+                        Post a Job
+                    </p>
+                </div>
+
+                <br>
+
+                <div class="flex flex-col gap-4 w-[500px] mx-[150px]">
+                    
+                
+
+                    <div class="flex justify-between">
+                        <label class="font-bold text-lg w-40 ">Enter Job Title</label>
+                        <input type="text" class="flex-1 " placeholder="Enter Job Title" required>
+                    </div>
+                    <br>
+
+                    <div class="flex justify-between">
+                        <label class="font-bold text-lg w-40">Job Type</label>
+                        <select class="flex-1">
+                            <option>Full-Time</option>
+                            <option>Part-Time</option>
+                            
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="flex justify-between">
+                        <label class="font-bold text-lg w-40">Gender Preference</label>
+                        <select class="flex-1">
+                            <option>Male</option>
+                            <option>female</option>
+                            <option>Both</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="flex justify-between">
+                        <label class="font-bold text-lg w-40">Minimum Qualification</label>
+                        <input type="text" class="flex-1 " placeholder="Enter Minimum Educational Qualification" required>
+                    </div>
+                    <br>
+
+                    <div class="flex justify-between">
+                        <label class="font-bold text-lg w-40">Salary/month</label>
+                        <input type="number" class="flex-1 " placeholder="Enter Salary" required>
+                    </div>
+                    <br>
+
+                    <div class="flex justify-between">
+                        <label class="font-bold text-lg w-40">Application Ends</label>
+                        <input type="date" class="flex-1 ">
+                    </div>
+
+
+                    <br><br>
+                    <button type="submit" class="bg-red-700 text-white w-56 mx-[150px] font-bold text-xl border-2 border-black rounded-xl hover:bg-green-700">Submit</button>
+                
+                </div>
+                
+                
+                
+            </form>
+        
+        
+    </div>    
+
+    </div>
+
+    <div class="h-[100px] bg-red-700"></div>
+
+    <footer class="bg-red-200 text-center py-8">
+
+        <p class="text-xl font-bold">&copy;2025 JOBSPHERE</p>
+        <br>
+        <img src="images/logo.png" class="w-40 mx-[840px]">
+        <br>
+        <p class="text-xl font-bold ">Connecting Talent with Opportunity.Seemlessly</p>
+
+
+    </footer>
+
+
+
+
+
+</body>
+</html>

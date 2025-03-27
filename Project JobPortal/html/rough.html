@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+       
+    </style>
+</head>
+<body class="bg-[url('images/body.png')] bg-center bg-cover dark:bg-gray-900">
+
+    <div class="flex flex-wrap justify-between items-center p-4">
+        <div class="w-full md:w-auto text-center md:text-left">
+            <a href="home.html"><img src="images/logo.png" class="mx-auto md:ml-8" alt="logo"></a>
+        </div>
+
+        <nav class="flex flex-col md:flex-row gap-4 md:gap-28 mt-4 md:mt-16 w-full md:w-auto justify-center">
+            <div>
+                <a href="homepage.html" class="text-black hover:text-green-700 text-lg font-bold">Home</a>
+            </div>
+            <div>
+                <a href="jobsearch.html" class="text-black hover:text-green-700 text-lg font-bold">Find Jobs</a>
+            </div>
+            <div>
+                <a href="home.html" class="text-black hover:text-green-700 text-lg font-bold">About Us</a>
+            </div>
+            <div>
+                <a href="contactus.html" class="text-black hover:text-green-700 text-lg font-bold">Contact</a>
+            </div>
+        </nav>
+
+        <div class="w-full md:w-auto text-center mt-4 md:mt-12 md:mr-28">
+            <a href="login.html"><input type="button" value="Logout" class="bg-red-700 text-white w-28 h-12 font-bold text-xl hover:bg-green-700"></a>
+        </div>
+    </div>
+
+    <p class="text-2xl font-bold text-center">Profile</p>
+
+    <br>
+
+    <div class="bg-white py-12 mx-4 md:mx-28 rounded-3xl">
+
+        <div class="flex flex-col md:flex-row items-center gap-4 md:gap-[100px] w-full md:w-[1400px] bg-zinc-300 rounded-3xl py-4 mx-4 md:mx-24">
+
+            <div>
+                <img src="images/Photo.jpeg" alt="photo" class="w-36 rounded-full md:ml-[80px]">
+            </div>
+
+            <div class="text-center md:text-left h-28 mt-4 md:mt-[40px] md:ml-44">
+                <p class="text-3xl md:text-5xl font-bold">Vignesh J Raju</p>
+                <p class="text-xl font-bold text-red-700">Industrial Engineer</p>
+                <div class="flex justify-center md:justify-start">
+                    <img src="images/call.png" alt="phone" class="w-4">
+                    <p>9074671161</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-4 md:gap-8 mt-4 md:mt-20">
+                <div>
+                    <a href="signupform2.html"><button class="bg-red-700 text-white text-xl md:text-2xl w-44 rounded-xl border-2 border-black shadow-sm shadow-black hover:bg-green-700">Update</button></a>
+                </div>
+                <div>
+                    <select class="bg-red-700 text-white text-xl md:text-2xl w-44 rounded-xl border-2 border-black shadow-sm shadow-black hover:bg-green-700">
+                        <option value="" disabled selected>Notifications</option>
+                        <option value="Company A">InnovaTech Solutions - Shortlisted</option>
+                        <option value="Company B">PixelForge Media - Pending</option>
+                        <option value="Company C">NextSphere Innovations - Rejected</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="w-full md:w-[800px] mx-auto md:mx-[220px]">
+            <!-- All content sections remain same with added responsive spacing -->
+            <!-- Education, Work Experience, Skills sections -->
+        </div>
+
+        <div class="relative md:absolute md:left-[1150px] md:top-[500px] w-full md:w-[500px] mt-8 md:mt-0 mx-4 md:mx-0">
+            <div class="bg-zinc-300 px-8 py-8 rounded-3xl border-2 border-black">
+                <!-- Information content -->
+            </div>
+        </div>
+    </div>
+
+    <div class="h-[100px] bg-red-700 mt-[50px]"></div>
+
+    <footer class="bg-red-200 text-center py-8">
+        <p class="text-xl font-bold">&copy;2025 JOBSPHERE</p>
+        <br>
+        <img src="images/logo.png" class="w-40 mx-auto">
+        <br>
+        <p class="text-xl font-bold">Connecting Talent with Opportunity.Seemlessly</p>
+    </footer>
+</body>
+</html>

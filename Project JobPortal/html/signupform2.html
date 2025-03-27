@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form 2</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+</head>
+<body class="bg-[url('images/body.png')] bg-cover dark:bg-gray-900">
+
+    <div class="flex flex-col md:flex-row justify-between items-center p-4">
+
+        <div class="md:ml-8">
+            <a href="home.html"><img src="images/logo.png" class="ml-8 md:ml-0" alt="logo"></a>
+        </div>
+
+        <nav class="flex flex-col md:flex-row gap-4 md:gap-28 mt-4 md:mt-16 mr-0 md:mr-4 text-center">
+            <div>
+                <a href="home.html" class="text-black hover:text-green-700 text-lg font-bold">Home</a>
+            </div>
+            <div>
+                <a href="aboutus.html" class="text-black hover:text-green-700 text-lg font-bold">About Us</a>
+            </div>
+            <div>
+                <a href="contactus.html" class="text-black hover:text-green-700 text-lg font-bold">Contact</a>
+            </div>
+        </nav>
+
+        <div class="mt-4 md:mt-12 mr-0 md:mr-28">
+            <a href="login.html"><input type="button" value="Login" class="bg-red-700 text-white w-28 h-12 font-bold text-xl hover:bg-green-700"></a>
+        </div>
+    </div>
+
+    <div class="mx-auto my-20 bg-zinc-300 border-2 border-black w-full max-w-[800px] md:w-[800px] py-12 rounded-xl shadow-sm shadow-black">
+        <form action="homepage.html">
+            <div class="border-b-2 w-full max-w-[700px] mx-auto">
+                <p class="text-black font-extrabold text-2xl font-serif text-center">
+                    Form
+                </p>
+            </div>
+
+            <br>
+
+            <div class="px-4 md:pl-20 flex flex-col w-full max-w-[600px] mx-auto">
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <label class="w-full md:w-40 font-semibold text-lg">Name</label>
+                        <input type="text" class="flex-1 border-2 border-black" placeholder="Enter Age" required>
+                    </div>
+                    <br>
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <p class="font-semibold text-lg w-full md:w-40">About Candidate</p>
+                        <textarea placeholder="About Yourself" class="flex-1 border-2 border-black" required></textarea>
+                    </div>
+                    <br>
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <label class="font-semibold text-lg w-full md:w-40">Age</label>
+                        <input type="number" class="flex-1  border-2 border-black" placeholder="Enter Age" required>
+                    </div>
+
+                    <br>
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <label class=" font-semibold text-lg w-full md:w-40">Gender</label>
+                        <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Gender" required>
+                    </div>
+                    <br>
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <label class="w-full md:w-40 font-semibold text-lg">Phone Number</label>
+                        <input type="number" class="flex-1  border-2 border-black" placeholder="Enter Phone Number" required>
+                    </div>
+
+                    <br>
+                    
+                    <div>
+                        <p class="font-bold text-xl ml-[260px]">Education</p>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="w-full md:w-40 font-semibold text-lg ">Highest Qualification</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Qualification" required>
+                        </div>
+                        <br>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="font-semibold text-lg w-full md:w-40">College</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter College" required>
+                        </div>
+                        <br>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="font-semibold text-lg w-full md:w-40">University</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter University" required>
+                        </div>
+                        <br>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="font-semibold text-lg w-full md:w-40">Grade</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Grade" required>
+
+                        </div>
+                        
+                    
+
+                    </div>
+
+                    <br>
+                    
+                    <div>
+                        <p class="font-bold text-xl ml-[230px]">Work & Experience</p>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="font-semibold text-lg w-full md:w-40">Job Title</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Job Title" required>
+                        </div>
+                        <br>
+
+                        <div class="flex flex-col md:flex-row justify-between"> 
+
+                            <label class="font-semibold text-lg w-full md:w-40">Company Name</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Company Name" required>
+                        </div>
+                        <br>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="font-semibold text-lg w-full md:w-40">Details</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Details" required>
+                        </div>
+                        <br>
+
+                        <div class="flex flex-col md:flex-row justify-between">
+
+                            <label class="font-semibold text-lg w-full md:w-40">Experience</label>
+                            <input type="text" class="flex-1  border-2 border-black" placeholder="Enter Experience" required>
+                        </div>
+                        <br>
+
+                    </div>
+
+                    <br>
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <label class="font-semibold text-lg w-full md:w-40">Photo Upload:</label>
+                        <input type="file" accept="image/*"  class=" bg-red-700 flex-1 border-2 border-black text-white">
+                    </div>
+
+                    <br>
+                    
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <label class="font-semibold text-lg w-full md:w-40">Resume Upload:</label>
+                        <input type="file" accept=".pdf,.doc"  class=" bg-red-700 flex-1 border-2 border-black text-white">
+                    </div>
+                    <br>
+
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <p class="font-bold text-xl w-full md:w-40">Skills</p>
+
+                        <input type="text" class="flex-1 border-2 border-black" placeholder="Enter Skills" required>
+
+                        <br>
+                        
+                    </div>
+                    
+
+                    <br>
+                    <button type="submit" class="bg-red-700 text-white w-56 mx-auto md:mx-[200px] font-bold text-xl border-2 border-black rounded-xl hover:bg-green-700">Submit</button>
+                
+                </div>
+
+                
+                
+                
+            </form>
+        
+        
+    </div>    
+
+    </div>
+
+    <div class="h-[100px] bg-red-700"></div>
+
+    <footer class="bg-red-200 text-center py-8">
+
+        <p class="text-xl font-bold">&copy;2025 JOBSPHERE</p>
+        <br>
+        <img src="images/logo.png" class="w-40 mx-[840px]">
+        <br>
+        <p class="text-xl font-bold ">Connecting Talent with Opportunity.Seemlessly</p>
+
+
+    </footer>
+
+
+    
+
+</body>
+</html>
